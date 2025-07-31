@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small Python package for CNN app
+Home-page: https://github.com/Devansh444/Chicken-classification
+Author: Devansh444
+Author-email: sharma.devansh0905@gmail.com
+Project-URL: Bug Tracker, https://github.com/Devansh444/Chicken-classification/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
