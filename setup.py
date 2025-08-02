@@ -25,3 +25,5 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
 )
+## ye project ko package bnata h aur
+#  src ke andr ke modules koinstabble bnata h
