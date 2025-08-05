@@ -1,1 +1,17 @@
 [2025-08-02 08:42:55,830: INFO: main: Welcome to my custom log]
+[2025-08-04 22:55:23,231: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-04 22:55:23,231: ERROR: main: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\devan\Downloads\Chicken classification\templates\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\devan\Downloads\Chicken classification\src\cnnClassifier\pipeline\stage_01_Data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\devan\Downloads\Chicken classification\src\cnnClassifier\config\configuration.py", line 12, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\devan\AppData\Local\Programs\Python\Python310\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\devan\Downloads\Chicken classification\src\cnnClassifier\utils\common.py", line 39, in read_yaml
+    raise e
+  File "C:\Users\devan\Downloads\Chicken classification\src\cnnClassifier\utils\common.py", line 32, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
