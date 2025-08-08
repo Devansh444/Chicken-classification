@@ -471,3 +471,124 @@ x==========x]
 [2025-08-08 03:08:29,563: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-08-08 10:09:39,498: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-08 10:09:39,501: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:09:39,503: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:09:39,504: INFO: common: created directory at: artifacts]
+[2025-08-08 10:09:39,505: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-08 10:09:39,505: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-08-08 10:09:39,787: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-08 10:10:00,778: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-08 10:10:00,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:10:00,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:10:00,781: INFO: common: created directory at: artifacts]
+[2025-08-08 10:10:00,782: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-08 10:10:12,124: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8DEF:1E74A2:4C69A:12152B:68957F9E
+Accept-Ranges: bytes
+Date: Fri, 08 Aug 2025 04:40:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10244-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1754628001.703821,VS0,VE885
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8f7a6b66403033be5f7398184fa138e0f00ce8c9
+Expires: Fri, 08 Aug 2025 04:45:01 GMT
+Source-Age: 1
+
+]
+[2025-08-08 10:10:12,477: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-08 10:11:09,755: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-08 10:11:09,757: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:11:09,758: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:11:09,758: INFO: common: created directory at: artifacts]
+[2025-08-08 10:11:09,759: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-08 10:11:09,759: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-08-08 10:11:09,961: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-08 10:16:11,491: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-08 10:16:11,493: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:16:11,494: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:16:11,495: INFO: common: created directory at: artifacts]
+[2025-08-08 10:16:11,495: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-08 10:16:11,495: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-08-08 10:16:11,694: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-08 10:16:27,988: INFO: stage_02_prepare_base_model: *******************]
+[2025-08-08 10:16:27,988: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-08-08 10:16:27,988: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:16:27,988: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:16:27,988: INFO: common: created directory at: artifacts]
+[2025-08-08 10:16:27,988: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-08 10:16:28,367: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:16:28,484: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:16:28,575: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-08-08 10:17:09,947: INFO: stage_02_prepare_base_model: *******************]
+[2025-08-08 10:17:09,947: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-08-08 10:17:09,947: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:17:09,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:17:09,953: INFO: common: created directory at: artifacts]
+[2025-08-08 10:17:09,953: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-08 10:17:10,222: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:17:10,338: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:17:10,424: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-08-08 10:17:15,274: INFO: stage_03_training: *******************]
+[2025-08-08 10:17:15,274: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2025-08-08 10:17:15,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:17:15,277: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:17:15,277: INFO: common: created directory at: artifacts]
+[2025-08-08 10:17:15,277: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-08-08 10:17:15,277: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-08-08 10:17:15,277: INFO: common: created directory at: artifacts\training]
+[2025-08-08 10:18:28,077: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:18:36,227: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:18:36,377: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:18:36,451: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-08-08 10:25:52,866: INFO: stage_03_training: *******************]
+[2025-08-08 10:25:52,866: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2025-08-08 10:25:52,867: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:25:52,870: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:25:52,870: INFO: common: created directory at: artifacts]
+[2025-08-08 10:25:52,870: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-08-08 10:25:52,873: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-08-08 10:25:52,873: INFO: common: created directory at: artifacts\training]
+[2025-08-08 10:27:06,239: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:27:15,349: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-08 10:27:15,448: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-08-08 10:27:21,460: INFO: stage_04_evaluation: *******************]
+[2025-08-08 10:27:21,461: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-08-08 10:27:21,463: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-08 10:27:21,464: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-08 10:27:21,464: INFO: common: created directory at: artifacts]
+[2025-08-08 10:27:21,715: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-08-08 10:27:29,305: INFO: common: json file saved at: scores.json]
+[2025-08-08 10:27:29,305: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
