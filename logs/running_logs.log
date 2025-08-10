@@ -629,3 +629,31 @@ Traceback (most recent call last):
 PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001C3B1877470>
 [2025-08-08 11:04:29,019: INFO: _internal: 127.0.0.1 - - [08/Aug/2025 11:04:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
 [2025-08-08 11:04:58,661: INFO: _internal: 127.0.0.1 - - [08/Aug/2025 11:04:58] "GET / HTTP/1.1" 200 -]
+[2025-08-10 14:07:46,935: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-10 14:07:46,943: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-10 14:07:46,955: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-10 14:07:46,956: INFO: common: created directory at: artifacts]
+[2025-08-10 14:07:46,956: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-10 14:07:46,957: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-08-10 14:07:47,160: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-10 14:07:47,160: INFO: main: *******************]
+[2025-08-10 14:07:47,160: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-08-10 14:07:47,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-10 14:07:47,164: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-10 14:07:47,165: INFO: common: created directory at: artifacts]
+[2025-08-10 14:07:47,165: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-10 14:07:47,551: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-10 14:07:47,696: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-10 14:07:47,808: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-08-10 14:07:47,808: INFO: main: *******************]
+[2025-08-10 14:07:47,808: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-08-10 14:07:47,808: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-10 14:07:47,808: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-10 14:07:47,808: INFO: common: created directory at: artifacts]
+[2025-08-10 14:07:47,808: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-08-10 14:07:47,808: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-08-10 14:07:47,808: INFO: common: created directory at: artifacts\training]
