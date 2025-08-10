@@ -13,3 +13,18 @@
 8) Update the main.py
 9) Update the dvc.yaml
 
+# How to run?
+
+### Steps:
+
+Clone the repository
+
+'''bash
+https://github.com/Devansh444/Chicken-classification
+'''
+### Step 01-Create a Conda environment after opening the repository
+
+
+
+
+### Step 02-install the requirements
